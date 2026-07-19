@@ -84,4 +84,12 @@ http://localhost:5173
 ✔ Instalação do Material Icon Theme.
 ✔ Ambiente de desenvolvimento padronizado.
 
+## Aula 05 — Estilos Globais com Styled Components
 
+✔ Instalação do styled-components.
+✔ Criação da pasta styles.
+✔ Criação do arquivo globalStyles.js.
+✔ Configuração do createGlobalStyle.
+✔ Definição dos estilos globais da aplicação.
+✔ Aplicação do GlobalStyles no main.jsx.
+✔ Padronização da estilização global utilizando Styled Components.

@@ -61,6 +61,7 @@ devburger-interface
 │   ├── routes
 │   ├── services
 │   ├── styles
+│   │   └── globalStyles.js
 │   ├── utils
 │   └── main.jsx
 │
@@ -74,7 +75,3 @@ devburger-interface
 ├── PROJECT_STRUCTURE.md
 ├── README.md
 └── vite.config.js
-
-
-
-
