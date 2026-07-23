@@ -93,3 +93,28 @@ http://localhost:5173
 ✔ Definição dos estilos globais da aplicação.
 ✔ Aplicação do GlobalStyles no main.jsx.
 ✔ Padronização da estilização global utilizando Styled Components.
+
+# ✅ Atualização de Status — DevBurger Interface
+
+## Aula 6 — Finalizada
+
+- Criada a estrutura inicial da página de Login.
+- Criado o arquivo `Login/styles.js`.
+- Criados os componentes com Styled Components:
+  - Container
+  - LeftContainer
+  - RightContainer
+  - Title
+  - Form
+  - InputContainer
+  - Link
+  - Button
+- Importada a logo do projeto.
+- Montada a estrutura JSX da tela de Login.
+- Corrigidos os erros de digitação (`InputContainer` e `<input>`).
+- Tela preparada para receber a estilização conforme o layout do Figma na próxima aula.
+
+
+
+
+
