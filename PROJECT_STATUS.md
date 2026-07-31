@@ -1,4 +1,3 @@
-
 # PROJECT STATUS
 
 # DevBurger Interface
@@ -114,7 +113,18 @@ http://localhost:5173
 - Corrigidos os erros de digitação (`InputContainer` e `<input>`).
 - Tela preparada para receber a estilização conforme o layout do Figma na próxima aula.
 
+## Histórico da Estrutura
 
+### Aula 07
 
+- Criação da pasta:
+  - src/components/Button
+- Criação dos arquivos:
+  - src/components/Button/index.jsx
+  - src/components/Button/styles.js
 
+### Aula 08
 
+- Implementação completa do componente reutilizável Button.
+- Adição da validação de propriedades com PropTypes.
+- Integração do componente Button à tela de Login.

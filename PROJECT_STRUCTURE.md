@@ -13,7 +13,6 @@ A partir deste ponto, a estrutura principal permanecerá praticamente inalterada
 
 # Estrutura Atual
 
-
 devburger-interface
 │
 ├── node_modules
@@ -26,6 +25,9 @@ devburger-interface
 │   │   └── Logo.svg
 │   │
 │   ├── components
+│   │   └── Button
+│   │       ├── index.jsx
+│   │       └── styles.js
 │   │
 │   ├── containers
 │   │   └── Login
