@@ -128,3 +128,24 @@ http://localhost:5173
 - Implementação completa do componente reutilizável Button.
 - Adição da validação de propriedades com PropTypes.
 - Integração do componente Button à tela de Login.
+
+## Aula 09 — React Hook Form e Yup
+
+Status: Concluída ✅
+
+Implementações realizadas:
+- Instalação do React Hook Form.
+- Instalação do Yup.
+- Integração do Yup com React Hook Form através do @hookform/resolvers.
+- Criação do schema de validação do formulário.
+
+## Aula 10 — Validação do Formulário
+
+Status: Concluída ✅
+
+Implementações realizadas:
+- Registro dos campos utilizando register().
+- Configuração do handleSubmit().
+- Captura dos erros de validação.
+- Exibição das mensagens de erro abaixo dos campos.
+- Testes da validação utilizando console.log(errors).
