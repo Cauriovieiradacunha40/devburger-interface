@@ -149,3 +149,51 @@ Implementações realizadas:
 - Captura dos erros de validação.
 - Exibição das mensagens de erro abaixo dos campos.
 - Testes da validação utilizando console.log(errors).
+
+## Aula 11 — Finalização da Tela de Login
+
+Status: Concluída ✅
+
+Implementações realizadas:
+- Finalização da estilização da tela de Login.
+- Ajuste visual das mensagens de validação.
+- Integração das mensagens de erro do React Hook Form com a interface.
+- Refinamentos na experiência do usuário durante a validação do formulário.
+
+## Aula 12 — Configuração da Comunicação com a API
+
+Status: Concluída ✅
+
+Implementações realizadas:
+- Instalação da biblioteca Axios.
+- Preparação do frontend para comunicação com o backend.
+- Início da configuração da camada de requisições HTTP da aplicação.
+
+## Aula 13 — Resolvendo erro de conexão com CORS
+
+Status: Concluída ✅
+
+Implementações realizadas:
+- Configuração do middleware CORS no backend.
+- Liberação da comunicação entre o frontend e a API.
+- Preparação do ambiente para as requisições HTTP utilizando Axios.
+- Testes da integração entre frontend e backend.  
+
+## Aula 14 — Personalizando notificações com React Toastify
+
+Status: Concluída ✅
+
+Implementações realizadas:
+
+- Instalação da biblioteca React Toastify.
+- Configuração do ToastContainer na aplicação.
+- Integração do toast.promise() ao processo de Login.
+- Criação da notificação de carregamento durante a verificação dos dados.
+- Criação da notificação de sucesso para autenticação válida.
+- Criação da notificação de erro para e-mail ou senha incorretos.
+- Configuração do tempo de exibição das notificações.
+- Configuração do tema colorido das notificações.
+- Tratamento de erros da requisição utilizando try/catch.
+- Testes da comunicação entre frontend e backend com retorno HTTP 401 para credenciais inválidas.
+- Sistema de notificações da tela de Login validado e funcionando corretamente.
+
