@@ -6,7 +6,7 @@ export const ContainerButton = styled.button`
   border: 0;
   border-radius: 5px;
   background-color: #9758a6;
-  font-family: 'Road Rage', sans-serif; 
+  font-family: 'Road Rage', sans-serif;
   font-size: 30px;
   color: #fff;
 

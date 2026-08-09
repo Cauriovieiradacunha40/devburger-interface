@@ -1,9 +1,11 @@
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useForm } from 'react-hook-form';
+import {toast} from 'react-toastify';  
 import * as yup from 'yup';
 
 import Logo from '../../assets/logo.svg';
 import { Button } from '../../components/Button';
+import { api } from '../../services/api';
 import {
   Container,
   LeftContainer,
@@ -35,9 +37,26 @@ export function Login() {
     resolver: yupResolver(schema),
   });
 
-   console.log(errors); 
+  console.log(errors);
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {    
+    try {   
+    const response = await toast.promise(
+      api.post('/session', {
+        email: data.email,
+        password: data.password,
+      }), 
+      {
+        pending: 'Verificando seus dados',
+        success: 'Seja bem-vindo!',
+        error: 'E-mail ou senha incorretos'     
+      },   
+    ); 
+    console.log(response);   
+    } catch (error) {
+    console.log(error);
+    }
+  };
 
   return (
     <Container>
@@ -65,7 +84,6 @@ export function Login() {
           </InputContainer>
 
           <Button type="submit">Entrar</Button>
-          
         </Form>
         <p>
           Não possui conta? <a>Clique aqui.</a>
