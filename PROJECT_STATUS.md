@@ -197,3 +197,24 @@ Implementações realizadas:
 - Testes da comunicação entre frontend e backend com retorno HTTP 401 para credenciais inválidas.
 - Sistema de notificações da tela de Login validado e funcionando corretamente.
 
+## Aula 15 — Criando usuário e configurando rotas
+
+Status: Concluída ✅
+
+Implementações realizadas:
+
+- Criação de um usuário administrador para utilização no projeto.
+- Teste de autenticação utilizando as credenciais do usuário criado.
+- Validação da requisição de login com retorno HTTP 200.
+- Instalação da biblioteca React Router DOM.
+- Criação do arquivo src/routes/index.jsx.
+- Configuração inicial das rotas da aplicação com createBrowserRouter.
+- Configuração da rota "/" para a tela de Login.
+- Integração do RouterProvider no main.jsx.
+- Alteração do fluxo de renderização para utilizar o sistema de rotas.
+- Manutenção do GlobalStyles e ToastContainer na raiz da aplicação.
+- Sistema de Login integrado à API e sistema inicial de rotas funcionando corretamente.
+
+
+
+

@@ -12,6 +12,7 @@ A partir deste ponto, a estrutura principal permanecerá praticamente inalterada
 ---
 
 # Estrutura Atual
+aula 14  
 
 devburger-interface
 │
@@ -58,3 +59,61 @@ devburger-interface
 ├── PROJECT_STRUCTURE.md
 ├── README.md
 └── vite.config.js
+
+
+
+
+
+
+
+
+
+
+
+
+devburger-interface
+│
+├── node_modules
+├── public
+│
+├── src
+│   ├── assets
+│   │   ├── background-login.svg
+│   │   ├── background.svg
+│   │   └── Logo.svg
+│   │
+│   ├── components
+│   │   └── Button
+│   │       ├── index.jsx
+│   │       └── styles.js
+│   │
+│   ├── containers
+│   │   └── Login
+│   │       ├── index.jsx
+│   │       └── styles.js
+│   │
+│   ├── hooks
+│   │
+│   ├── routes
+│   │   └── index.jsx
+│   │
+│   ├── services
+│   │   └── api.js
+│   │
+│   ├── styles
+│   │   └── globalStyles.js
+│   │
+│   ├── utils
+│   │
+│   └── main.jsx
+│
+├── .gitignore
+├── .prettierrc.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── PROJECT_STATUS.md
+├── PROJECT_STRUCTURE.md
+├── README.md
+└── vite.config.js    
