@@ -42,14 +42,14 @@ export function Login() {
   const onSubmit = async (data) => {    
     try {   
     const response = await toast.promise(
-      api.post('/session', {
+      api.post('/sessions', {
         email: data.email,
         password: data.password,
       }), 
       {
         pending: 'Verificando seus dados',
         success: 'Seja bem-vindo!',
-        error: 'E-mail ou senha incorretos'     
+        error: 'E-mail ou senha incorretos'       
       },   
     ); 
     console.log(response);   
