@@ -215,6 +215,26 @@ Implementações realizadas:
 - Manutenção do GlobalStyles e ToastContainer na raiz da aplicação.
 - Sistema de Login integrado à API e sistema inicial de rotas funcionando corretamente.
 
+## Aula 16 — Criação da Tela de Cadastro
 
+Status: Concluída ✅
+
+Implementações realizadas:
+
+- Criação da página Register.
+- Criação dos arquivos index.jsx e styles.js da página Register.
+- Desenvolvimento da interface da tela de cadastro.
+- Criação dos campos Nome, Email, Senha e Confirmar Senha.
+- Integração do formulário com React Hook Form.
+- Validação dos campos utilizando Yup.
+- Validação da confirmação de senha.
+- Exibição das mensagens de erro no formulário.
+- Integração do cadastro com a API através do Axios.
+- Envio dos dados para a rota POST /users.
+- Integração das notificações com React Toastify.
+- Configuração das notificações de carregamento, sucesso e erro.
+- Adição da rota /cadastro utilizando React Router DOM.
+- Testes da tela de cadastro e correção da estrutura JSX.
+- Tela de cadastro funcionando corretamente.
 
 
