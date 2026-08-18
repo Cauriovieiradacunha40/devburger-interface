@@ -29,10 +29,10 @@ export function Register() {
         .required('Digite uma senha'),
       confirmPassword: yup
         .string()
-        .oneOf([yup.ref('password'), null], 'As senhas devem ser iguais')     
-        .required('Confirme sua senha'),   
+        .oneOf([yup.ref('password'), null], 'As senhas devem ser iguais')
+        .required('Confirme sua senha'),
     })
-    .required(); 
+    .required();
 
   const {
     register,
@@ -46,21 +46,27 @@ export function Register() {
 
   const onSubmit = async (data) => {
     try {
-      const response = await toast.promise(
-        api.post('/users', {   
-          name: data.name,   
+      const { status } = await api.post(
+        '/users',
+        {
+          name: data.name,
           email: data.email,
           password: data.password,
-        }),
+        },
         {
-          pending: 'Verificando seus dados',
-          success: 'Cadastro realizado com sucesso!',
-          error: 'Erro ao cadastrar, tente novamente',   
+          validateStatus: () => true,
         },
       );
-      console.log(response);
-    } catch (error) {
-      console.log(error);
+
+      if (status === 200 || status === 201) {
+        toast.success('Conta criada com sucesso!');
+      } else if (status === 400) {  
+        toast.error('E-mail já cadastrado! Faça login para continuar.');
+      } else {
+        throw new Error();
+      }
+    } catch {
+      toast.error('Falha no sistema! Tente novamente mais tarde.');
     }
   };
 
@@ -71,14 +77,13 @@ export function Register() {
       </LeftContainer>
 
       <RightContainer>
-        <Title>Criar Conta</Title> 
+        <Title>Criar Conta</Title>
         <Form onSubmit={handleSubmit(onSubmit)}>
-              
           <InputContainer>
-            <label>Nome</label> 
+            <label>Nome</label>
             <input type="text" {...register('name')} />
             <p>{errors?.name?.message}</p>
-          </InputContainer>  
+          </InputContainer>
 
           <InputContainer>
             <label>Email</label>
@@ -93,15 +98,15 @@ export function Register() {
           </InputContainer>
 
           <InputContainer>
-            <label>Confirmar Senha</label>  
+            <label>Confirmar Senha</label>
             <input type="password" {...register('confirmPassword')} />
             <p>{errors?.confirmPassword?.message}</p>
-          </InputContainer>  
+          </InputContainer>
 
-          <Button type="submit">Criar Conta</Button>  
+          <Button type="submit">Criar Conta</Button>
         </Form>
         <p>
-          Já possui conta? <a>Clique aqui.</a>   
+          Já possui conta? <a>Clique aqui.</a>
         </p>
       </RightContainer>
     </Container>
