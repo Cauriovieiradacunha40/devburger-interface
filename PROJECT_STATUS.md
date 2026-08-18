@@ -237,4 +237,16 @@ Implementações realizadas:
 - Testes da tela de cadastro e correção da estrutura JSX.
 - Tela de cadastro funcionando corretamente.
 
+## Aula 17 — Tratando Erros no Cadastro
 
+Status: Concluída ✅
+
+Implementações realizadas:
+
+- Implementado tratamento de respostas da API no cadastro.
+- Tratamento de cadastro realizado com sucesso.
+- Tratamento de e-mail já cadastrado.
+- Tratamento de falhas de comunicação com o backend.
+- Configuração de notificações com React Toastify para cada situação.
+- Adequação do tratamento ao status 400 retornado pela API para e-mail já cadastrado.
+- Testes realizados com backend ativo e inativo.
