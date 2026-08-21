@@ -250,3 +250,29 @@ Implementações realizadas:
 - Configuração de notificações com React Toastify para cada situação.
 - Adequação do tratamento ao status 400 retornado pela API para e-mail já cadastrado.
 - Testes realizados com backend ativo e inativo.
+
+## Aula 18 — Cuidando da navegação — EM ANDAMENTO
+
+### Alterações realizadas
+
+* Criada a nova container `home`.
+* Criado o arquivo:
+
+  * `src/containers/home/index.jsx`
+* Atualizado `src/routes/index.jsx`.
+* Adicionada a rota `/` apontando para o componente `Home`.
+* Mantidas as rotas:
+
+  * `/login` → `Login`
+  * `/cadastro` → `Register`
+* Implementado `useNavigate` no cadastro.
+* Após um cadastro realizado com sucesso, a aplicação aguarda 2 segundos e redireciona automaticamente para `/login`.
+* Mantido o tratamento do backend para sucesso com status `200` ou `201`.
+* Teste realizado com novo usuário.
+* Backend retornou `201 Created`.
+* Redirecionamento automático para a tela de Login testado e funcionando corretamente.
+
+### Fluxo confirmado
+
+`Cadastro → usuário criado → toast de sucesso → aguarda 2 segundos → /login`
+
