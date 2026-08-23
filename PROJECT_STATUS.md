@@ -275,4 +275,5 @@ Implementações realizadas:
 ### Fluxo confirmado
 
 `Cadastro → usuário criado → toast de sucesso → aguarda 2 segundos → /login`
-
+commit realizado 
+bakup realizado 
