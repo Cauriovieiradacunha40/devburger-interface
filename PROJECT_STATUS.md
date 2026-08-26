@@ -277,3 +277,26 @@ Implementações realizadas:
 `Cadastro → usuário criado → toast de sucesso → aguarda 2 segundos → /login`
 commit realizado 
 bakup realizado 
+
+## Aula 21 — Criando a tela Home
+
+### Concluído
+- Criada a estrutura visual inicial da página Home.
+- Adicionado o banner principal da Home.
+- Adicionado o título "Bem-vindo(a)!" sobre o banner.
+- Adicionado o background da área de conteúdo.
+- Aplicado efeito de sobreposição clara com `linear-gradient`.
+- Criado o componente estilizado `Content`.
+- Adicionados espaços temporários para:
+  - Carrossel de categorias.
+  - Carrossel de produtos.
+- Corrigida a estilização do background da Home.
+
+### Arquivos principais
+- `src/containers/home/index.jsx`
+- `src/containers/home/styles.js`
+- `src/assets/banner-home.svg` 
+
+
+
+
