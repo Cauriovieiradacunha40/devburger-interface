@@ -297,6 +297,126 @@ bakup realizado
 - `src/containers/home/styles.js`
 - `src/assets/banner-home.svg` 
 
+## Aula 22 — Criando os carrosséis
 
+### Concluído
 
+- Instalada a biblioteca `react-multi-carousel`.
+- Criado o componente `CategoriesCarousel`.
+- Criado o estado `categories` para armazenar as categorias.
+- Utilizado `useEffect` para carregar os dados ao iniciar o componente.
+- Criada a função assíncrona `loadCategories`.
+- Implementada a requisição `GET /categories` utilizando a API configurada em `services/api`.
+- Adicionado `console.log` para verificar o retorno da API.
+- Criada a estrutura inicial para o carrossel de categorias.
+- Criado o arquivo de estilos do componente.
 
+### Arquivos principais
+
+- `src/components/CategoriesCarousel/index.jsx`
+- `src/components/CategoriesCarousel/styles.js`
+- `src/containers/home/index.jsx`
+- `package.json`
+- `pnpm-lock.yaml`
+
+### Dependência adicionada
+
+- `react-multi-carousel`
+
+### Pendente
+
+- Configurar o envio do token de autenticação nas requisições protegidas da API.
+- Após a autenticação, utilizar os dados retornados por `/categories` no carrossel.
+
+## Aula 23 — Revisando os dados e guardando informações no Local Storage
+
+### Concluído
+
+- Revisado o fluxo de autenticação da aplicação.
+- Ajustado o login para capturar o token retornado pela API.
+- Implementado o armazenamento do token no Local Storage com `localStorage.setItem`.
+- Confirmado o armazenamento do token em `http://localhost:5173`.
+- Corrigida a importação de `useState` no componente `CategoriesCarousel`.
+- Ajustada a requisição para `/categories` utilizando a instância configurada da API.
+- Utilizada desestruturação para obter diretamente o `data` retornado pela API.
+- Implementado o armazenamento das categorias no estado com `setCategories(data)`.
+- Mantido `console.log(data)` para conferência dos dados recebidos.
+- Resolvida a pendência do token que havia ficado da Aula 22.
+
+### Arquivos principais
+
+- `src/containers/Login/index.jsx`
+- `src/components/CategoriesCarousel/index.jsx`
+
+### Alterações importantes
+
+No login, o token passou a ser salvo no navegador:
+
+`localStorage.setItem('token', token)`
+
+No carrossel de categorias, os dados retornados pela API passaram a ser armazenados no estado:
+
+`const { data } = await api.get('/categories');`
+
+`setCategories(data);`
+
+### Estrutura do projeto
+
+Não houve criação de novos arquivos ou pastas nesta aula.
+
+Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
+
+### Status
+
+Aula 23 concluída.
+
+A pendência de autenticação/token da Aula 22 foi resolvida nesta aula.
+
+## Aula 24 — Montando o carrossel
+
+### Concluído
+
+- Configurado o componente `Carousel` utilizando a biblioteca `react-multi-carousel`.
+- Criada a configuração responsiva do carrossel para diferentes tamanhos de tela.
+- Definida a quantidade de itens exibidos em desktop, tablet e dispositivos móveis.
+- Ativada a navegação infinita do carrossel.
+- Configurada a classe personalizada `carousel-item`.
+- Utilizadas as categorias carregadas da API para gerar dinamicamente os itens do carrossel.
+- Implementado o `map` sobre o estado `categories`.
+- Utilizado o `id` da categoria como `key`.
+- Corrigida a propriedade utilizada para carregar as imagens das categorias.
+- As imagens passaram a utilizar `category.url`, retornada pela API.
+- Cada categoria passou a exibir sua imagem como background e o respectivo nome.
+- Finalizada a estilização dos cards de categorias.
+- Ajustado o título "Categorias" e o indicador visual abaixo do título.
+- Corrigido `text-align` para centralizar corretamente o título.
+- Importado o CSS padrão do `react-multi-carousel`.
+
+### Compatibilidade
+
+- Foi necessário realizar um ajuste de compatibilidade no carregamento do `react-multi-carousel` no ambiente atual do projeto.
+- O componente passou a utilizar:
+
+`const Carousel = CarouselImport.default ?? CarouselImport;`
+
+- O ajuste resolveu o erro em que o React recebia o componente `Carousel` como um objeto.
+- Também foi realizado ajuste das versões de React e React DOM para compatibilidade com as dependências utilizadas no curso.
+
+### Arquivos principais alterados
+
+- `src/components/CategoriesCarousel/index.jsx`
+- `src/components/CategoriesCarousel/styles.js`
+- `package.json`
+- `pnpm-lock.yaml`
+
+### Estrutura do projeto
+
+Não houve criação de novos arquivos ou pastas nesta aula.
+
+Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
+
+### Status
+
+Aula 24 concluída.
+
+O carrossel de categorias está funcionando, exibindo os dados e imagens carregados pela API.

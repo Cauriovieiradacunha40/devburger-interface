@@ -14,61 +14,7 @@ A partir deste ponto, a estrutura principal permanecerá praticamente inalterada
 # Estrutura Atual
 
 
-```text
-devburger-interface
-│
-├── node_modules
-├── public
-│
-├── src
-│   ├── assets
-│   │   ├── background-login.svg
-│   │   ├── background.svg
-│   │   └── Logo.svg
-│   │
-│   ├── components
-│   │   └── Button
-│   │       ├── index.jsx
-│   │       └── styles.js
-│   │
-│   ├── containers
-│   │   ├── home
-│   │   │   └── index.jsx
-│   │   │
-│   │   ├── Login
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   └── Register
-│   │       ├── index.jsx
-│   │       └── styles.js
-│   │
-│   ├── hooks
-│   │
-│   ├── routes
-│   │   └── index.jsx
-│   │
-│   ├── services
-│   │   └── api.js
-│   │
-│   ├── styles
-│   │   └── globalStyles.js
-│   │
-│   ├── utils
-│   │
-│   └── main.jsx
-│
-├── .gitignore
-├── .prettierrc.json
-├── eslint.config.js
-├── index.html
-├── package.json
-├── pnpm-lock.yaml
-├── PROJECT_STATUS.md
-├── PROJECT_STRUCTURE.md
-├── README.md
-└── vite.config.js
-```
+
 
 
 
@@ -127,3 +73,68 @@ devburger-interface
 ├── PROJECT_STRUCTURE.md
 ├── README.md
 └── vite.config.js 
+
+
+
+
+
+
+devburger-interface
+│
+├── node_modules
+├── public
+│
+├── src
+│   ├── assets
+│   │   ├── background-login.svg
+│   │   ├── background.svg
+│   │   ├── banner-home.svg
+│   │   └── Logo.svg
+│   │
+│   ├── components
+│   │   ├── Button
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   └── CategoriesCarousel
+│   │       ├── index.jsx
+│   │       └── styles.js
+│   │
+│   ├── containers
+│   │   ├── home
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── Login
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   └── Register
+│   │       ├── index.jsx
+│   │       └── styles.js
+│   │
+│   ├── hooks
+│   │
+│   ├── routes
+│   │   └── index.jsx
+│   │
+│   ├── services
+│   │   └── api.js
+│   │
+│   ├── styles
+│   │   └── globalStyles.js
+│   │
+│   ├── utils
+│   │
+│   └── main.jsx
+│
+├── .gitignore
+├── .prettierrc.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── PROJECT_STATUS.md
+├── PROJECT_STRUCTURE.md
+├── README.md
+└── vite.config.js
