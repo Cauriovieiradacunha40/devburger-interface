@@ -415,8 +415,20 @@ Não houve criação de novos arquivos ou pastas nesta aula.
 
 Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
 
-### Status
+## Aula 25 — Montando o segundo carrossel
 
-Aula 24 concluída.
+- Criado o componente `OffersCarousel`.
+- Implementada a busca de produtos pela API.
+- Filtrados apenas os produtos em oferta.
+- Configurado o carrossel de ofertas com `react-multi-carousel`.
+- Exibidos nome e imagem dos produtos em oferta.
+- Integrado o carrossel de ofertas à Home.
 
-O carrossel de categorias está funcionando, exibindo os dados e imagens carregados pela API.
+## Aula 26 — Montando o CSS do carrossel
+
+- Criado o componente `CardProduct`.
+- Estruturado o card para exibição dos produtos.
+- Implementada a estilização dos cards de produtos.
+- Configurados imagem, informações e elementos visuais do produto.
+- Estilizado o botão do card, incluindo efeito `hover`.
+- Ajustado o visual do carrossel de ofertas.

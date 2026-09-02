@@ -13,10 +13,7 @@ A partir deste ponto, a estrutura principal permanecerá praticamente inalterada
 
 # Estrutura Atual
 
-
-
-
-
+ 
 
 devburger-interface
 │
@@ -31,7 +28,15 @@ devburger-interface
 │   │   └── Logo.svg
 │   │
 │   ├── components
-│   │   └── Button
+│   │   ├── Button
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── CategoriesCarousel
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   └── OffersCarousel
 │   │       ├── index.jsx
 │   │       └── styles.js
 │   │
@@ -72,10 +77,7 @@ devburger-interface
 ├── PROJECT_STATUS.md
 ├── PROJECT_STRUCTURE.md
 ├── README.md
-└── vite.config.js 
-
-
-
+└── vite.config.js
 
 
 
@@ -96,7 +98,15 @@ devburger-interface
 │   │   │   ├── index.jsx
 │   │   │   └── styles.js
 │   │   │
-│   │   └── CategoriesCarousel
+│   │   ├── CardProduct
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── CategoriesCarousel
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   └── OffersCarousel
 │   │       ├── index.jsx
 │   │       └── styles.js
 │   │
