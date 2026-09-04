@@ -148,3 +148,82 @@ devburger-interface
 ├── PROJECT_STRUCTURE.md
 ├── README.md
 └── vite.config.js
+
+
+
+
+
+
+devburger-interface
+│
+├── node_modules
+├── public
+│
+├── src
+│   ├── assets
+│   │   ├── background-login.svg
+│   │   ├── background.svg
+│   │   ├── banner-home.svg
+│   │   ├── Cart.svg
+│   │   └── logo.svg
+│   │
+│   ├── components
+│   │   ├── Button
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── CardButton
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── CardProduct
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── CategoriesCarousel
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   └── OffersCarousel
+│   │       ├── index.jsx
+│   │       └── styles.js
+│   │
+│   ├── containers
+│   │   ├── home
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── Login
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   └── Register
+│   │       ├── index.jsx
+│   │       └── styles.js
+│   │
+│   ├── hooks
+│   │
+│   ├── routes
+│   │   └── index.jsx
+│   │
+│   ├── services
+│   │   └── api.js
+│   │
+│   ├── styles
+│   │   └── globalStyles.js
+│   │
+│   ├── utils
+│   │   └── formatPrice.js
+│   │
+│   └── main.jsx
+│
+├── .gitignore
+├── .prettierrc.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── PROJECT_STATUS.md
+├── PROJECT_STRUCTURE.md
+├── README.md
+└── vite.config.js

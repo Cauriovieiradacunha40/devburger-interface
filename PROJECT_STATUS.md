@@ -432,3 +432,15 @@ Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
 - Configurados imagem, informações e elementos visuais do produto.
 - Estilizado o botão do card, incluindo efeito `hover`.
 - Ajustado o visual do carrossel de ofertas.
+
+## Aula 27 — Filtrando Itens
+
+- Implementado o filtro para exibir somente produtos em oferta.
+- Utilizado `filter()` para selecionar produtos com `offer: true`.
+- Utilizado `map()` para preparar os dados dos produtos.
+- Criado o utilitário `formatPrice.js`.
+- Implementada a formatação dos preços em Real (R$).
+- Adicionado o campo `currencyValue` aos produtos.
+- Integrado o componente `CardProduct` ao carrossel de ofertas.
+- Corrigidos avisos do React relacionados a `src`, `propTypes` e `imageUrl`.
+- Console da aplicação revisado e sem erros do código.
