@@ -31,7 +31,7 @@ export const Title = styled.h2`
 `;
 
 export const ContainerItens = styled.div`
-  background: url('${(props) => props.imageUrl}');
+  background: url('${(props) => props.$imageUrl}');
   background-position: center;
   background-size: cover;
   border-radius: 20px;
