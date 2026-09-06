@@ -5,6 +5,16 @@ export const Container = styled.div`
     padding-right: 40px;
   }
 
+  .react-multi-carousel_arrow {
+    left: 15px;
+    top: 10px; 
+  }
+
+  .react-multi-carousel_arrow--right {
+    top: 10px; 
+  }  
+
+
   padding-left: 40px;
 `;
 

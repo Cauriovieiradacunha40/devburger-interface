@@ -37,7 +37,10 @@ export const Container = styled.div`
   }
 `;
 
-export const CardImage = styled.img`
-   
-
+export const CardImage = styled.img`  
+  width: 160px;
+  height: 140px;
+  object-fit: contain;
 `;
+
+
