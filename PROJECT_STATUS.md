@@ -444,3 +444,13 @@ Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
 - Integrado o componente `CardProduct` ao carrossel de ofertas.
 - Corrigidos avisos do React relacionados a `src`, `propTypes` e `imageUrl`.
 - Console da aplicação revisado e sem erros do código.
+
+## Aula 28 — Criando o Menu
+
+- Iniciada a construção da tela de cardápio.
+- Criado o container `Menu`.
+- Criada a estrutura inicial da página em `index.jsx`.
+- Criados os estilos iniciais da página.
+- Adicionado o banner do cardápio.
+- Criados os componentes estilizados `Container`, `Banner`, `CategoryMenu` e `ProductsContainer`.
+- Configurada a utilização do `BannerHamburger.svg` na tela de cardápio.
