@@ -9,7 +9,8 @@ export const Container = styled.div`
   border-radius: 8px;
   background-color: #ffffff;
   cursor: grab;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  position: relative;  
 
   div {
     width: 100%;
@@ -41,6 +42,10 @@ export const CardImage = styled.img`
   width: 160px;
   height: 140px;
   object-fit: contain;
-`;
+
+  position: absolute;
+  top: -70px;  
+
+`; 
 
 
