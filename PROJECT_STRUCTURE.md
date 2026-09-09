@@ -13,6 +13,15 @@ A partir deste ponto, a estrutura principal permanecerá praticamente inalterada
 
 # Estrutura Atual
 
+
+
+
+
+
+
+
+
+
 devburger-interface
 │
 ├── node_modules
@@ -23,6 +32,7 @@ devburger-interface
 │   │   ├── background-login.svg
 │   │   ├── background.svg
 │   │   ├── banner-home.svg
+│   │   ├── BannerHamburger.svg
 │   │   ├── Cart.svg
 │   │   └── logo.svg
 │   │
@@ -53,6 +63,10 @@ devburger-interface
 │   │   │   └── styles.js
 │   │   │
 │   │   ├── Login
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── Menu
 │   │   │   ├── index.jsx
 │   │   │   └── styles.js
 │   │   │
@@ -148,6 +162,9 @@ devburger-interface
 │   │       └── styles.js
 │   │
 │   ├── hooks
+│   │   ├── CartContext.jsx
+│   │   ├── index.jsx
+│   │   └── UserContext.jsx
 │   │
 │   ├── routes
 │   │   └── index.jsx
@@ -173,7 +190,3 @@ devburger-interface
 ├── PROJECT_STRUCTURE.md
 ├── README.md
 └── vite.config.js
-
-
-
-

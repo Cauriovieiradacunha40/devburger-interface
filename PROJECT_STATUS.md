@@ -454,3 +454,32 @@ Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
 - Adicionado o banner do cardápio.
 - Criados os componentes estilizados `Container`, `Banner`, `CategoryMenu` e `ProductsContainer`.
 - Configurada a utilização do `BannerHamburger.svg` na tela de cardápio.
+
+# PROJECT STATUS — DevBurger Interface
+
+## Progresso atual
+
+- Aula 28 — Estrutura da página de cardápio criada.
+- Aula 29 — Desenvolvimento da tela de categorias.
+- Aula 30 — Continuação da tela de categorias.
+- Aula 31 — Integração das categorias com o cardápio e filtragem dos produtos.
+- Implementado botão para voltar às categorias.
+- Corrigida a filtragem de produtos para evitar o aviso do ESLint relacionado ao uso de setState dentro de useEffect.
+- Aula 32 — Compartilhando informações na aplicação. Aula conceitual, sem modificações no projeto.
+- Aula 33 — Criando o primeiro contexto.
+- Criada a estrutura de contextos dentro de src/hooks:
+  - CartContext.jsx
+  - UserContext.jsx
+  - index.jsx
+
+## Estado atual
+
+- Home funcionando.
+- Carrossel de categorias funcionando.
+- Carrossel de ofertas funcionando.
+- Navegação da Home para o cardápio funcionando.
+- Categoria selecionada enviada pela URL.
+- Produtos filtrados corretamente por categoria.
+- Botão "Voltar para categorias" funcionando.
+- Estrutura inicial de Context API criada.
+
