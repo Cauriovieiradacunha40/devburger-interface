@@ -483,3 +483,58 @@ Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
 - Botão "Voltar para categorias" funcionando.
 - Estrutura inicial de Context API criada.
 
+- Aula 34 — Utilização dos contextos de usuário e carrinho.
+
+- Aula 35 — Criação do Header.
+
+- Aula 36 — Continuação do Header, integração com o contexto do usuário, navegação ativa e logout.
+
+- Aula 37 — Criação do Footer e da estrutura da página do carrinho.
+
+- Aula 38 — Desenvolvimento do carrinho.
+
+- Aula 39 — Implementação da lógica do carrinho.
+
+## Estado atual
+
+- Home funcionando.
+
+- Carrossel de categorias funcionando.
+
+- Carrossel de ofertas funcionando.
+
+- Navegação da Home para o cardápio funcionando.
+
+- Categoria selecionada enviada pela URL.
+
+- Produtos filtrados corretamente por categoria.
+
+- Botão "Voltar para categorias" funcionando.
+
+- Context API de usuário e carrinho implementada.
+
+- Dados do usuário persistidos no Local Storage.
+
+- Header funcionando.
+
+- Nome do usuário logado exibido no Header.
+
+- Navegação ativa no Header.
+
+- Logout funcionando.
+
+- Footer criado.
+
+- Página do carrinho criada.
+
+- Produtos podem ser adicionados ao carrinho.
+
+- Quantidade dos produtos pode ser aumentada ou reduzida.
+
+- Produtos podem ser removidos do carrinho.
+
+- Carrinho persistido no Local Storage.
+
+- Projeto funcionando corretamente até a Aula 39.
+
+

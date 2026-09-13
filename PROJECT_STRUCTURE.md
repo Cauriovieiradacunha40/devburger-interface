@@ -21,7 +21,6 @@ A partir deste ponto, a estrutura principal permanecerá praticamente inalterada
 
 
 
-
 devburger-interface
 │
 ├── node_modules
@@ -75,6 +74,9 @@ devburger-interface
 │   │       └── styles.js
 │   │
 │   ├── hooks
+│   │   ├── CartContext.jsx
+│   │   ├── index.jsx
+│   │   └── UserContext.jsx
 │   │
 │   ├── routes
 │   │   └── index.jsx
@@ -100,6 +102,8 @@ devburger-interface
 ├── PROJECT_STRUCTURE.md
 ├── README.md
 └── vite.config.js
+
+
 
 
 
@@ -140,11 +144,23 @@ devburger-interface
 │   │   │   ├── index.jsx
 │   │   │   └── styles.js
 │   │   │
+│   │   ├── Footer
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
+│   │   ├── Header
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
 │   │   └── OffersCarousel
 │   │       ├── index.jsx
 │   │       └── styles.js
 │   │
 │   ├── containers
+│   │   ├── Cart
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   │
 │   │   ├── home
 │   │   │   ├── index.jsx
 │   │   │   └── styles.js
