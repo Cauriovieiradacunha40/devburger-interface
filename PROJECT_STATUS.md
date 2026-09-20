@@ -537,4 +537,16 @@ Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
 
 - Projeto funcionando corretamente até a Aula 39.
 
+- Aula 40 — Organização das importações do projeto.
+
+- Criados arquivos index.js em src/containers e src/components para centralizar as exportações e simplificar os imports.
+
+- Aula 41 — Finalizando o carrinho — em andamento.
+
+- Criado o componente Table em src/components:
+  - index.jsx
+  - styles.js
+
+  
+
 
