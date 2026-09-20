@@ -23,7 +23,7 @@ export const CartProvider = ({ children }) => {
       (prd) => prd.id === product.id,
     );
 
-    let newProductsInCart; 
+    let newProductsInCart;
 
     if (cartIndex >= 0) {
       newProductsInCart = cartProducts.map((prd) =>
@@ -41,13 +41,11 @@ export const CartProvider = ({ children }) => {
     }
 
     setCartProducts(newProductsInCart);
-
     updateLocalStorage(newProductsInCart);
   };
 
   const clearCart = () => {
     setCartProducts([]);
-
     updateLocalStorage([]);
   };
 
@@ -57,7 +55,6 @@ export const CartProvider = ({ children }) => {
     );
 
     setCartProducts(newCart);
-
     updateLocalStorage(newCart);
   };
 
@@ -69,7 +66,6 @@ export const CartProvider = ({ children }) => {
     );
 
     setCartProducts(newCart);
-
     updateLocalStorage(newCart);
   };
 
@@ -90,7 +86,6 @@ export const CartProvider = ({ children }) => {
       );
 
       setCartProducts(newCart);
-
       updateLocalStorage(newCart);
     } else {
       deleteProduct(productId);
@@ -131,4 +126,6 @@ export const useCart = () => {
   }
 
   return context;
-};   
+};
+
+
