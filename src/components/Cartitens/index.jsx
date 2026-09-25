@@ -1,9 +1,22 @@
 import { Table } from '../index';
+
 import { useCart } from '../../hooks/CartContext';
+
 import { formatPrice } from '../../utils/formatPrice';
 
+import TrashIcon from '../../assets/trash.svg';
+
+import {
+  ButtonGroup,
+  EmptyCart,
+  ProductImage,
+  ProductTotalPrice,
+  TrashImage,
+} from './styles';
+
 export function CartItems() {
-  const { cartProducts } = useCart();
+  const { cartProducts, decreaseProduct, increaseProduct, deleteProduct } =
+    useCart();
 
   return (
     <Table.Root>
@@ -14,6 +27,7 @@ export function CartItems() {
           <Table.Th>Preço</Table.Th>
           <Table.Th>Quantidade</Table.Th>
           <Table.Th>Total</Table.Th>
+          <Table.Th></Table.Th>
         </Table.Tr>
       </Table.Header>
 
@@ -22,20 +36,42 @@ export function CartItems() {
           cartProducts.map((product) => (
             <Table.Tr key={product.id}>
               <Table.Td>
-                <img src={product.url} alt={product.name} />
+                <ProductImage src={product.url} />
               </Table.Td>
 
               <Table.Td>{product.name}</Table.Td>
+
               <Table.Td>{product.currencyValue}</Table.Td>
-              <Table.Td>{product.quantity}</Table.Td>
+
               <Table.Td>
-                {formatPrice(product.quantity * product.price)}
+                <ButtonGroup>
+                  <button onClick={() => decreaseProduct(product.id)}>-</button>
+
+                  {product.quantity}
+
+                  <button onClick={() => increaseProduct(product.id)}>+</button>
+                </ButtonGroup>
+              </Table.Td>
+
+              <Table.Td>
+                <ProductTotalPrice>
+                  {formatPrice(product.quantity * product.price)}
+                </ProductTotalPrice>
+              </Table.Td>
+              <Table.Td>
+                <TrashImage
+                  src={TrashIcon}
+                  alt="lixeira"
+                  onClick={() => deleteProduct(product.id)}
+                />
               </Table.Td>
             </Table.Tr>
           ))
         ) : (
           <Table.Tr>
-            <Table.Td colSpan={5}>Carrinho Vazio</Table.Td>
+            <Table.Td>
+              <EmptyCart>Carrinho Vazio</EmptyCart>
+            </Table.Td>
           </Table.Tr>
         )}
       </Table.Body>
