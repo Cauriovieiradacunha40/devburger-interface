@@ -547,6 +547,12 @@ Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
   - index.jsx
   - styles.js
 
-  
+  - Aula 42 — Finalizando a parte visual do pedido.
+  - Finalizada a estrutura visual da tabela do carrinho.
+  - Exibição de imagem, nome, preço, quantidade e total dos produtos.
+  - Adicionados controles de aumentar e diminuir a quantidade.
+  - Adicionado ícone de lixeira para remoção de produtos do carrinho.
+  - Adicionado o arquivo trash.svg em src/assets.
+  - Ajustada a estilização da tabela e dos itens do carrinho.
 
 

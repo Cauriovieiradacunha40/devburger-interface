@@ -30,112 +30,6 @@ A partir deste ponto, a estrutura principal permanecerá praticamente inalterada
 
 
 
-devburger-interface
-│
-├── node_modules
-├── public
-│
-├── src
-│   ├── assets
-│   │   ├── background-login.svg
-│   │   ├── background.svg
-│   │   ├── banner-home.svg
-│   │   ├── BannerHamburger.svg
-│   │   ├── Cart.svg
-│   │   └── logo.svg
-│   │
-│   ├── components
-│   │   ├── Button
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── CardButton
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── CardProduct
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── CategoriesCarousel
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── Footer
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── Header
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   └── OffersCarousel
-│   │       ├── index.jsx
-│   │       └── styles.js
-│   │
-│   ├── containers
-│   │   ├── Cart
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── home
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── Login
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   ├── Menu
-│   │   │   ├── index.jsx
-│   │   │   └── styles.js
-│   │   │
-│   │   └── Register
-│   │       ├── index.jsx
-│   │       └── styles.js
-│   │
-│   ├── hooks
-│   │   ├── CartContext.jsx
-│   │   ├── index.jsx
-│   │   └── UserContext.jsx
-│   │
-│   ├── routes
-│   │   └── index.jsx
-│   │
-│   ├── services
-│   │   └── api.js
-│   │
-│   ├── styles
-│   │   └── globalStyles.js
-│   │
-│   ├── utils
-│   │   └── formatPrice.js
-│   │
-│   └── main.jsx
-│
-├── .gitignore
-├── .prettierrc.json
-├── eslint.config.js
-├── index.html
-├── package.json
-├── pnpm-lock.yaml
-├── PROJECT_STATUS.md
-├── PROJECT_STRUCTURE.md
-├── README.md
-└── vite.config.js
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 src
 ├── components
@@ -185,6 +79,107 @@ src
 
 
 
+
+
+
+
+
+
+
+
+devburger-interface
+│
+├── node_modules
+├── public
+│
+├── src
+│   ├── assets
+│   │   ├── background-login.svg
+│   │   ├── background.svg
+│   │   ├── banner-home.svg
+│   │   ├── BannerHamburger.svg
+│   │   ├── Cart.svg
+│   │   ├── logo.svg
+│   │   ├── texture.svg
+│   │   └── trash.svg
+│   │
+│   ├── components
+│   │   ├── Button
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── CardButton
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── CardProduct
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── CartItens
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── CategoriesCarousel
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── Footer
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── Header
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── OffersCarousel
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── Table
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   └── index.js
+│   │
+│   ├── containers
+│   │   ├── Cart
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── home
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── Login
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── Menu
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   ├── Register
+│   │   │   ├── index.jsx
+│   │   │   └── styles.js
+│   │   └── index.js
+│   │
+│   ├── hooks
+│   │   ├── CartContext.jsx
+│   │   ├── index.jsx
+│   │   └── UserContext.jsx
+│   │
+│   ├── routes
+│   │   └── index.jsx
+│   │
+│   ├── services
+│   │   └── api.js
+│   │
+│   ├── styles
+│   │   └── globalStyles.js
+│   │
+│   ├── utils
+│   │   └── formatPrice.js
+│   │
+│   └── main.jsx
+│
+├── .gitignore
+├── .prettierrc.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── PROJECT_STATUS.md
+├── PROJECT_STRUCTURE.md
+├── README.md
+└── vite.config.js
 
 
 
