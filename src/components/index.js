@@ -7,5 +7,6 @@ export * from './Header';
 export * from './OffersCarousel';
 export * from './Button';
 export * from './Table';  
-
+export * from './CartResume'; 
+export * from './CartItens'; 
 
