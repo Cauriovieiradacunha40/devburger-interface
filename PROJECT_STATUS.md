@@ -555,4 +555,6 @@ Por isso, o `PROJECT_STRUCTURE.md` não precisou ser alterado.
   - Adicionado o arquivo trash.svg em src/assets.
   - Ajustada a estilização da tabela e dos itens do carrinho.
 
+  - Aula 43 — Criação do resumo do pedido no carrinho, com exibição de itens, taxa de entrega, total e botão para finalizar o pedido.
+
 
